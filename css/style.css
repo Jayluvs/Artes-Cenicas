@@ -1,0 +1,39 @@
+/*
+Querido programador.
+Quando eu escrevi este código, 
+apenas Deus e eu sabíamos como ele funcionava.
+Agora, apenas Deus sabe!
+
+Portanto, se você estiver tentando melhorar esta rotina 
+porque está falhando e "com certeza está", por favor, 
+aumente este contador como um aviso para a próxima pessoa.
+
+total_horas_gastas_aqui: 64
+*/
+
+/*
+Parisienne Font - Main Title
+*/
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+/*
+El Messiri Font - SubTitle
+*/
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+/*
+Unna Font - Body Shape
+*/
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #fff;
+}
