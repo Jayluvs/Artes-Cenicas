@@ -76,6 +76,7 @@ body {
     font-family: 'El Messiri', sans-serif;
     font-weight: 400;
     font-size: 28px;
+    align-items: center center;
     color: #d2ac47;
     text-shadow: 0 0 5px rgb(237, 201, 103, 0.7);
 }
