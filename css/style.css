@@ -8,8 +8,10 @@ Portanto, se você estiver tentando melhorar esta rotina
 porque está falhando e "com certeza está", por favor, 
 aumente este contador como um aviso para a próxima pessoa.
 
-total_horas_gastas_aqui: 70
+total_horas_gastas_aqui: 74
 */
+
+/*#9e0909 (carmesim)*/
 
 /*
 Parisienne Font - Main Title
@@ -38,11 +40,15 @@ body {
   background-color: #fff;
 }
 
-.navbar {
+nav {
   background-color: #d2ac47;
   position: fixed; 
   top: 0; 
   width: 100%; 
+}
+
+nav ul li a:hover {
+  color: rgba(210, 173, 71, 0.7);
 }
 
 .header {
@@ -51,10 +57,12 @@ body {
   left: 0;
   top: 0;
   position: relative;
-  background: url(../imgs/header-fundo.jpeg); 
+  background: url(../imgs/header-fundo.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: #d2ac47;
+  border-bottom: 10px solid #d2ac47;
 }
 
 .espaco-st {
@@ -188,7 +196,7 @@ body {
   font-family: 'El Messiri', sans-serif;
   font-weight: 400;
   font-size: 40px;
-  color: #d2ac47;
+  color: #9e0909;
 }
 
 .texto-corpo {
