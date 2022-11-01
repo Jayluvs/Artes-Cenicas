@@ -8,7 +8,7 @@ Portanto, se você estiver tentando melhorar esta rotina
 porque está falhando e "com certeza está", por favor, 
 aumente este contador como um aviso para a próxima pessoa.
 
-total_horas_gastas_aqui: 74
+total_horas_gastas_aqui: 80
 */
 
 /* #9e0909 (carmesim) */
@@ -40,15 +40,12 @@ body {
   background-color: #fff;
 }
 
-nav {
+#navbar {
   background-color: #d2ac47;
-  position: fixed; 
+  position: fixed;
   top: 0; 
   width: 100%; 
-}
-
-nav ul li a:hover {
-  color: rgba(210, 173, 71, 0.7);
+  z-index: 5;
 }
 
 .header {
@@ -240,11 +237,32 @@ nav ul li a:hover {
   justify-content: space-around;
 }
 
-.mercado-imagem {
-  height: 400px;
-  width: 400px;
-}
-
 .video-box {
   margin-left: 30px;
 }
+
+.accordion-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#rodape {
+  position: absolute;
+  background-color: #d2ac47;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.foot-text {
+  margin-left: 40px;
+  font-family: 'El Messiri', sans-serif;
+  font-weight: 180;
+  font-size: 18px;
+  color: #9e0909;
+  margin-top: 20px;
+} 
